@@ -1,0 +1,5 @@
+<phpunit
+        bootstrap="init.php"
+        debug="true"
+        processUncoveredFilesFromWhitelist="false">
+</phpunit>

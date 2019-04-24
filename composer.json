@@ -1,0 +1,47 @@
+{
+  "name": "scalpel/tree",
+  "description": "",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Scalpel",
+      "email": "373966902@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "j\\tree\\": "src"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "j\\tree\\": "tests"
+    }
+  },
+
+  "require": {
+    "php": ">=5.4.0"
+  },
+
+  "require-dev": {
+    "scalpel/db": "*"
+  },
+
+  "suggest": {
+    "scalpel/db": "*"
+  },
+
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    },
+    {"packagist": false}
+  ],
+
+  "config" : {
+    "secure-http" : false
+  }
+}
